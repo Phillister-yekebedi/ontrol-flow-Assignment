@@ -18,7 +18,7 @@ function numbers(arrNum){
         
    
 }
-let arrum=[1,2,3,5,6,4];
+let arrNum=[1,2,3,5,6,4];
 numbers(arrNum)
 
 
@@ -42,15 +42,15 @@ console.log((Arr))
 //break when the item is equal to the fourth index
 //let arrNum = [1,2,3,4,5,6,7,8,9];
 
-let arrnum = [1,2,3,4,5,6,7,8,9];
+let arrnum = [1,2,3,4,5,6,7,8,9]
 function Array(arrnum) {
-    let p= 0
-    while(i <arrnum.length){
-        console.log(arrnum[i]);
-        if(i === 4){
-            break
+    let p= 0;
+    while(p <arrnum.length){
+        console.log(arrnum[p]);
+        if(p=== 4){
+            break;
         }
-        i++
+        p++
     
     }
 }
@@ -60,12 +60,13 @@ Array(arrnum)
 //Write a function that takes in an array of strings and use a continue statement when the item is at the second index
 let fruits= ['apple','plum','banana','strawberries','kiwi']
 function Fruits(fruits){{}
-    for(let y=0;i <fruits.length; y++){
+    for(let y=0; y<fruits.length; y++){
         if(y === 2){
             continue;
         }
-        console.log(fruits[y]);
+        console.log("continue", fruits[y]);
         
     }
     
 }
+Fruits(fruits)
